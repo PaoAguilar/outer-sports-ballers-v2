@@ -7,9 +7,14 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const pixellari = localFont({
+  src: "./fonts/Pixellari.ttf",
+  variable: "--font-pixellari",
+  weight: "100 900",
+});
+const play = localFont({
+  src: "./fonts/Play-Regular.ttf",
+  variable: "--font-play",
   weight: "100 900",
 });
 
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${pixellari.variable} ${play.variable} antialiased`}
       >
         {children}
       </body>
