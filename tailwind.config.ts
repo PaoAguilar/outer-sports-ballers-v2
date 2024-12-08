@@ -13,6 +13,7 @@ export default {
             colors: {
                 "dark": "#131313",
                 "dark-gray": "#222222",
+                "dark-violet": "#241033",
                 "violet": "#662D91",
                 "violet-hover": "#7b49a1",
                 "violet-light": "#F0EAF4",
